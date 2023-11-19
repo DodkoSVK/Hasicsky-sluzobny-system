@@ -1,0 +1,36 @@
+body {
+    position: relative;    
+}
+#background {    
+    background-image: url(dodko.cloud/Semestralne-zadanie/Images/background.jpg);
+    background-repeat: no-repeat repeat;
+    opacity: 0.7;       
+    z-index: -1;
+}
+#mainHeader{
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: red;
+    background-color: #FD8F8F;
+    max-width: 400px;
+}
+#loginForm{
+    text-align: center;
+    margin: auto;  
+    
+}
+label{
+    text-align: left;
+    margin-left: left;
+    
+}   
+input{
+    width: 200px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
